@@ -1,6 +1,6 @@
 # Custom-Build-Object-Detection-Model using SSD ResNet50 V1 FPN 640x640 (RetinaNet50)
 
-In this project, I used the Object Detection API and retrained RetinaNet to detect Cars using just 10 training images downloaded from Open Images. To build this custom model, I used the Tensorflow framework. I had set up the model to restore pre-trained weights from the checkpoint and fine-tuned the classification and box prediction layers. The custom build training loop just took about 14 min to train the model through 200 steps giving significantly very low total loss of about 0.0051. The model was then inferred on test images to detect multiple cars.
+In this project, I used the Object Detection API and retrained custom build model using RetinaNet50 to detect Cars using just 10 training images downloaded from Open Images. To build this custom model, I used the Tensorflow framework. I had set up the model to restore pre-trained weights from the checkpoint and fine-tuned the classification and box prediction layers. The custom build training loop just took about 14 min to train the model through 200 steps giving significantly very low total loss of about 0.0051. The model was then inferred on test images to detect multiple cars.
 
 To train this custom build Object Detection model, I took the following steps:
 
